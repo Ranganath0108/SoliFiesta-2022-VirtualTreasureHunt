@@ -2,7 +2,7 @@ var context = document.getElementById("puzzle");
 var canvas = context.getContext("2d");
 
 
-const timeOutMin = 10
+const timeOutMin = 8
 const timeOutInSec = timeOutMin * 60 * 1000
 
 var img = new Image();

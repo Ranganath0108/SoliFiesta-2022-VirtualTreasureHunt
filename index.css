@@ -1,0 +1,118 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+  }
+
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  .lastPage {
+    position:center;
+    width:500px; 
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #timeOut
+  {
+      background-color:red;
+      font-size: 20px;
+      color:red;
+  }
+  
+  h1 {
+    background-color: rgba(84, 57, 21, 0.8);
+    color: black;
+    text-shadow: 0.5px 0.4px 0.2px rgba(255, 255, 255, 0.2);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+    margin: 3px auto;
+    font-size: 65px;
+  }
+
+  p{
+    /* background-color:black; */
+      font-size: 40px;
+      color:black;
+
+  }
+
+  #countdown{
+
+    /* background-color: rgb(205, 190, 24); */
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+
+
+  #rules{
+    background: white;
+    color:black;
+    text-align: justify;
+    position:center;
+    width:800px; 
+    font-size: large;
+    margin-left:auto;
+    margin-right:auto; 
+    font-style: inherit;
+  }
+
+  #btn{
+    display: inline-block;
+    background-color: aqua;
+    font-size: 24px;
+    color:black;
+    width: 10%;
+    /* height: 10%; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+   box-shadow: 0 9px #999;
+
+  }
+  #btn:hover 
+  {background-color: #3e8e8e}
+  #btn:active {
+    background-color: #3e8e8e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #SolifiImage{
+  position: absolute;
+  top: 10px;
+  right: 220px;
+  
+  }
+
+#SolifiImage img{
+  position: absolute;
+  width:200px;
+  height: 200px;
+}
+
+#Ref{
+  position:absolute;
+  color: black;
+  top: 180px;
+  left: 40px;
+  font-weight:3px;
+
+}
+
+  
